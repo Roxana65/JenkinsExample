@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="test-suite" parallel="tests" thread-count="2" >
 
-    <test name = "Login Test">
+    <test name = "Chrome Test">
     
     <parameter name="user" value="TestUser"/>
     <parameter name="pass" value="12345@67890"/>
@@ -14,7 +14,7 @@
             
         </classes>
     </test>
-     <test name = "Login Test2">
+    <test name = "Firefox Test">
     
     <parameter name="user" value="TestUser"/>
     <parameter name="pass" value="12345@67890"/>
@@ -26,4 +26,5 @@
             
         </classes>
     </test>
+
 </suite>
